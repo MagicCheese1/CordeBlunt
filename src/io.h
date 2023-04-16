@@ -1,0 +1,4 @@
+#ifndef CORDLEBLUNT_IO_H
+#define CORDLEBLUNT_IO_H
+
+#endif //CORDLEBLUNT_IO_H
