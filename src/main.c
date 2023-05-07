@@ -16,7 +16,7 @@ int main() {
         Board_draw(board);
         mvinch(current_row * 2, current_column * 2);
         int input = getch();
-        terminal_colored_mprint(0, 14, LETTER_COLOR_BLACK, "%i", input); //DEBUG
+        terminal_colored_mprint(0, 14, LETTER_COLOR_BLACK, "%i   ", input); //DEBUG
         char *keyString = keyname(input);
         if (keyString[1] == '\0' && Letter_Tracker_contains(letter_tracker, tolower(keyString[0]))) {
             int new_column = Board_append(board, toupper(keyString[0]), current_row) + 1;
