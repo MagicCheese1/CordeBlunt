@@ -33,5 +33,4 @@ Letter_Tracker *Letter_Tracker_new(char *allowed_letters);
 
 int Letter_Tracker_contains(Letter_Tracker *letter_tracker, char letter);
 
-
 #endif //CORDLEBLUNT_GAME_H
